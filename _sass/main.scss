@@ -16,6 +16,27 @@ body {
         text-align: center;
         padding: 16px;
 
+        .icon-title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .app-icon {
+                height: 50px;
+            }
+
+            .app-title {
+                font-size: xx-large;
+                font-weight: bold;
+                margin-left: 20px;
+            }
+        }
+
+        .main-hero {
+            max-width: 300px;
+        }
+
         .presskit-video {
             position: relative;
             padding-bottom: 56.25%; /* 16:9 */
